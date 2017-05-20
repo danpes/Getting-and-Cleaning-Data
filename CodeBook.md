@@ -45,7 +45,7 @@ For more information about this dataset please contact: activityrecognition '@' 
 # Observed Activities
 - "subject" (integer) the ID of the subject observed, between 1 and 30
 
-- "al" (character) the type of activity observed:
+- "al" (character) the type of activity observed
 
 #
 
