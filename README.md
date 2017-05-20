@@ -27,4 +27,6 @@ You should create one R script called run_analysis.R that does the following.
 5) Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 # Steps to work on this course project
-Just run source("run_analysis.R"). It will create a new file tiny_data.txt in your working directory.
+Just run source("run_analysis.R"). It will
+- get dataset from source, unzip it (you'll have a local dir named 'UCI HAR Dataset')
+- create a new file tiny_data.txt in your working directory.
