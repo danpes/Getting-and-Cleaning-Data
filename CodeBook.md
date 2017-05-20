@@ -47,12 +47,16 @@ For more information about this dataset please contact: activityrecognition '@' 
 
 - "activity" (character) the type of activity observed:
 
+#
+
 - walking    = walking
 - climbing   = walking up stairs
 - descending = walking down stairs
 - sitting    = sitting
 - standing   = standing
 - lying      = lying
+
+#
 
 - "tBodyAccmeanX" (double) mean linear acceleration of the subject's body in the X dimension
 
