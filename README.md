@@ -28,5 +28,5 @@ You should create one R script called run_analysis.R that does the following.
 
 # Steps to work on this course project
 Just run source("run_analysis.R"). It will
-- get dataset from source, unzip it (you'll have a local dir named 'UCI HAR Dataset')
+- get dataset from source, unzip it (you'll have a local dir named 'UCI HAR Dataset'), remove the previously downloaded zip file
 - create a new file tiny_data.txt in your working directory.
