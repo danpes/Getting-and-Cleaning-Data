@@ -14,6 +14,7 @@ library(reshape2)
 
                                                                              # [0] --> get dataset in local sandbox
                                                                              # get data in local sandbox and clean it
+                                                                             # length 62556944 bytes (59.7 MB)
 url <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
 f <- file.path(getwd(), "dataset.zip")
 download.file(url, f)
@@ -66,4 +67,4 @@ md = melt(data, id = ilbls, measure.vars = dlbls)
 
                                                                              # [4] --> calculate mean on whole data set and create a tidy one on file
 tidyd = dcast(md, subject + al ~ variable, mean)
-write.table(tidyd, file = "./tidy_data.txt")
+write.table(tidyd, file = "./tidy_data.txt",  row.name=FALSE)
